@@ -1,0 +1,7 @@
+(:name           "quast")
+(:repo           "taffish-org/quast")
+(:author         "KaiyuanHan")
+(:version        "5.3.0")
+(:intro          "Genome assembly evaluation tool")
+(:dependencies)
+(:functions      "quast.py")

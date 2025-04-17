@@ -1,0 +1,9 @@
++TOOL:quast
+ARGS
+    <else>
+        quast.py -h
+    <main>
+        quast.py ::*APP-ARGS*::
+RUN
+    <container:taf-quast-v5.3.0:ghcr.io/taffish-org/quast:5.3.0>
+        ::*MAIN*::
